@@ -1,29 +1,28 @@
-# Blogr landing page
+# Курсовой проект Лэндинг
 
-This is a solution to the [Blogr landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/blogr-landing-page-EX2RLAApP). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+Этот проект сделан в качестве курсовой работы Марии Кашниковой для РГРТУ г.8040
 
-## Welcome! 👋
+## Привет! 👋
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-- [Author](#author)
+  - [Обзор](#overview)
+  - [Вызов](#the-challenge)
+  - [Скрин](#screenshot)
+  - [Ссылки](#links)
+  - [Процесс](#my-process)
+  - [Технологии](#built-with)
+  - [Интерес](#learned)
+  - [Автор](#author)
 
 ## Overview
 
 ### The challenge
 
-Users should be able to:
+Пользователи должны иметь возможность:
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
+- Просмотр оптимального макета сайта в зависимости от размера экрана их устройства
+- Смотрите состояния наведения для всех интерактивных элементов на странице
 
 ### Screenshot
 
@@ -31,9 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/blogr-landing-page-using-html-css-and-js-uEuPVH-N4)
-- Live Site URL: [Live site URL](https://blogr-landing-page-eight.vercel.app/)
-
+https://cdo.rsreu.ru/user/profile.php?id=14402
 ## My process
 
 ### Built with
@@ -41,14 +38,14 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- Desktop-first workflow then Mobile
-- Vanilla JS for mobile navigation toggle
+- Desktop-версия и версия Mobile
+- Vanilla JS для мобильной навигации 
 
-### What I learned
+### learned
 
-The dropdown menu is the highlight of my learning while working through this project. This is something I have never worked on before and had no prior knowledge how to go about it. I had to do a little research (Stackover flow to the rescue... lol). At the end, I was a able to complete the dropdown menu using just HTML and CSS- no JS.
+Выпадающее меню - это изюминка моего обучения во время работы над этим проектом. Это то, над чем я никогда раньше не работал и не знал, как это сделать. Мне пришлось провести небольшое исследование (переполнение стека на помощь... лол). В конце концов, я смог завершить выпадающее меню, используя только HTML и CSS - без JS.
 
-I faced a little challenge having a background color and a background image for a parent container. Below is a code snippet of how I was able to achieve it.
+Я столкнулся с небольшой проблемой, имея цвет фона и фоновое изображение для родительского контейнера. Ниже приведен фрагмент кода о том, как мне удалось этого достичь.
 
 ```css
 .header{
@@ -65,14 +62,9 @@ I faced a little challenge having a background color and a background image for 
 }
 ```
 
-### Continued development
 
-While working through this project, I noticed I still needed to perfect using JS for mobile navigation toggle. I believe I can make a smoother transition for the mobile navigation toggle. So, I'll be working on that for the next couple of days.
 
 ## Author
 
-- Website - [Github/Uzoway](https://github.com/uzoway)
-- Frontend Mentor - [@uzoway](https://www.frontendmentor.io/profile/uzoway)
-- Twitter - [@Uzoway_](https://twitter.com/Uzoway_)
-
-Thanks for checking out this project.
+-- Мария Андреенва Кашникова группа 8040 
+-- Информатика и вычислительная техника.

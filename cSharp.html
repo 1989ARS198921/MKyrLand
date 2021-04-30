@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <title>Blogr landing page</title>
+</head>
+<body>
+
+  <!-- Header starts here -->
+  <section class="header">
+    <div class="navigation">
+      <a name="up"><img src="images/c-sharp.svg" alt="Blogr logo"></a>     
+      <img src="images/icon-hamburger.svg" alt="hamburger" id="mobilemenu">
+    </div>
+    <div class="header-content" style="margin-top: 5rem;">
+    <ul class="header-content-links">
+      <li><a href="index.html" class="start">на главную &#10026;</a></li>
+    </ul>
+    </div>
+   
+  </section>
+
+  <!-- Mobile Navigation starts here -->
+  <section id="mobilenav" class="mobilenav">
+    <ul>
+      <li class="connect">
+        <div class="connect-text">
+          <a href="#">Меню</a>
+          <img src="images/icon-arrow-dark.svg" alt="dropdown arrow">
+        </div>
+        <div class="dropdown-menu-mobile">
+          <ul>
+            <li><a href="#csh">Про C#</a></li> 
+          </ul>
+        </div>
+      </li>
+      <hr>
+      <li class="signup"><a href="index.html">Главная страница</a></li>
+    </ul>
+  </section>
+
+  <!-- Blogr description -->
+  <section class="description">
+    <h2>Я люблю C#  </h2>
+    <div class="description-content">
+      <div class="description-content-leftcolumn">
+        <h3><a name="csh"></a>Немного истории</h3>
+        <p>Язык C#, разработанный компанией Майкрософт, один из самых популярных современных языков программирования. Он востребован на рынке разработки в различных странах, 
+          C# применяют при работе с программами для ПК, создании сложных веб-сервисов или мобильных приложений. Появившийся как язык для собственных нужд платформы Microsoft .NET, постепенно этот язык стал очень популярным. А потому мы решили сделать небольшой обзор для тех, кто выбирает, какие инструменты разработки стоит освоить в ближайшее время.
+          Итак, разработка языка началась в 1998 году, а первая версия увидела свет в 2001. Группой разработчиков руководил известный в профессиональных кругах специалист Андерс Хейлсберг. Новые версии C# выходят сравнительно часто, а текущие доработки, исправление багов и расширение библиотек ведется практически на постоянной основе. 
+          В результате язык получился крайне гибкий, мощный и универсальный. На нем пишут практически все, что угодно, от небольших веб-приложений до мощных программных систем, объединяющих в себе веб-структуры, приложения для десктопов и мобильных устройств. Все это стало возможным благодаря удобному Си-подобному синтаксису, строгому структурированию, огромному количеству фреймворков и библиотек (их число достигает нескольких сотен).  
+          Долгое время платформа .NET поставлялась с закрытым ядром, что создавало определенные сложности в разработке и снижало популярность C# в профессиональной среде. Но в ноябре 2014 Майкрософт радикально изменила подход и стала выдавать бесплатные лицензии для Visual Studio уже с открытым исходным кодом для всех наборов инструментов.
+        </p>
+      <div class="description-content-rightcolumn">
+        <img src="images/Sable.svg" alt="editor illustration" class="desktop-editor">
+         
+        <img src="images/StBernard.svg" alt="editor illustration" class="mobile-editor">
+        <div class="mobile-editor" style="color:  rgb(11, 13, 179);"> 
+          Если ты любишь C#<br>
+           и видишь сенбернара
+              <br>ты на мобильной
+                  <br>версии...</div>
+          </div>
+      </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services">
+    <div class="services-leftcolumn">
+      <img src="images/bg-pattern-circles.svg" alt="circle pattern" class="circle-pattern">
+    </div>
+    <div class="services-rightcolumn">
+      <h4>Конечно это не все</h4>
+      <p>
+        Современная разработка требует современных решений.
+      </p>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features">
+    <div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-box">
+      <a href="#"><img src="images/icons8-c-sharp-logo.svg" alt="Blogr logo"></a>
+    </div>
+
+    <div class="footer-box">
+      <ul>
+        <li><a href="#up">вверх &uarr;</a></li> 
+      </ul>
+    </div>
+    <div class="attribution">
+      
+     <h6>Мария Андреевна Кашникова г. 8040 &#128293;</h6>
+    </div>
+  </footer>
+
+  <script src="main.js"></script> <!-- JavaScript file for mobile navigation -->
+</body>
+</html>
